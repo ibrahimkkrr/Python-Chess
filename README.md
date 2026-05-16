@@ -36,10 +36,9 @@ classDiagram
     ChessGameController --> ChessView : Triggers Render
     ChessView ..> ChessEngine : Reads Data (Read-Only)
 
-📐 Detailed Class Blueprint
-For a complete deep-dive into the design patterns used (such as the Strategy Pattern for piece movements and the Factory Pattern for piece creation), expand the complete system diagram below.
 
-classDiagram
+
+    classDiagram
     %% ==========================================
     %% 0. THE APPLICATION ROOT
     %% ==========================================
