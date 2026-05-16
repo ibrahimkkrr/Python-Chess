@@ -35,6 +35,7 @@ classDiagram
     ChessGameController --> ChessEngine : Modifies Data
     ChessGameController --> ChessView : Triggers Render
     ChessView ..> ChessEngine : Reads Data (Read-Only)
+```
 
 ## 📐 Detailed Class Blueprint
 
@@ -43,7 +44,7 @@ For a complete deep-dive into the design patterns used, expand the complete syst
 <details>
 <summary><b>🔍 Click to expand the Full System Blueprint (All Classes & Relations)</b></summary>
 
-
+```mermaid
 classDiagram
     %% ==========================================
     %% 0. THE APPLICATION ROOT
@@ -198,3 +199,4 @@ classDiagram
 
     Queen *-- Rook : Composes
     Queen *-- Bishop : Composes
+
