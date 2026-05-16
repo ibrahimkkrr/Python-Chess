@@ -35,3 +35,4 @@ classDiagram
     ChessGameController --> ChessEngine : Modifies Data
     ChessGameController --> ChessView : Triggers Render
     ChessView ..> ChessEngine : Reads Data (Read-Only)
+👉 **Want a deep dive into the complete codebase?** Check out the full, interactive system blueprint in the [Architecture and Diagrams Guide](diagrams.md).
